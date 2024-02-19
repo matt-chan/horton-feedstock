@@ -1,13 +1,13 @@
 {% set name = "horton" %}
-{% set version = "2.3.0" %}
+{% set version = "2.3.1" %}
 
 package:
   name: {{ name | lower }} 
   version: {{ version }}
 
 source:
-  url: https://github.com/theochem/horton/releases/download/{{ version }}/horton-{{ version }}.tar.gz
-  sha256: 5cd76d53368995dd2fba20903a3bddda1161ffa6ffe9f9eef94189ed0a67cc27
+  url: https://github.com/theochem/horton/archive/refs/tags/{{ version }}.tar.gz
+  sha256: 5a9330a23ec3cb096d9ab46cc5f95f0ab5da20c2b680204da1c053b7ab48340c
 
 build:
   number: 2
