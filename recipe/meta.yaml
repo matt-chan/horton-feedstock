@@ -7,7 +7,7 @@ package:
 
 source:
   url: https://github.com/theochem/horton/archive/refs/tags/{{ version }}.tar.gz
-  sha256: 5a9330a23ec3cb096d9ab46cc5f95f0ab5da20c2b680204da1c053b7ab48340c
+  sha256: bf401ff253db999e0c16b5b2d2d3fedeb2f7975f958f6d682c251a34a7383ecf
 
 build:
   number: 2
