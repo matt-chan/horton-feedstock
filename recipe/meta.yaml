@@ -1,5 +1,5 @@
 {% set name = "horton" %}
-{% set version = "2.3.1" %}
+{% set version = "2.3.2" %}
 
 package:
   name: {{ name | lower }} 
@@ -7,7 +7,7 @@ package:
 
 source:
   url: https://github.com/theochem/horton/archive/refs/tags/{{ version }}.tar.gz
-  sha256: bf401ff253db999e0c16b5b2d2d3fedeb2f7975f958f6d682c251a34a7383ecf
+  sha256: 860a2c9418491e0792c6fbd7cef0a0b6620c6bebd6e6b10fa6314d53b2722281
 
 build:
   number: 2
@@ -25,7 +25,7 @@ requirements:
     - cython
     - h5py
     - libxc
-    - libint <2.7.2
+    - libint <2.8
   run:
     - python
     - numpy
@@ -33,7 +33,7 @@ requirements:
     - h5py
     - matplotlib-base
     - libxc
-    - libint <2.7.2
+    - libint <2.8
     - cython
 test:
   requires:
