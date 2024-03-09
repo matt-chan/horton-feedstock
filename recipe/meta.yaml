@@ -25,7 +25,7 @@ requirements:
     - cython
     - h5py
     - libxc
-    - libint <2.8
+    - libint <2.7.2
   run:
     - python
     - numpy
@@ -33,7 +33,7 @@ requirements:
     - h5py
     - matplotlib-base
     - libxc
-    - libint <2.8
+    - libint <2.7.2
     - cython
 test:
   requires:
